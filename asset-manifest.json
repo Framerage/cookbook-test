@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/recipe-list/static/css/main.d502d1d6.css",
+    "main.js": "/recipe-list/static/js/main.904d193c.js",
+    "static/css/775.8e5e3cee.chunk.css": "/recipe-list/static/css/775.8e5e3cee.chunk.css",
+    "static/js/775.a3008f39.chunk.js": "/recipe-list/static/js/775.a3008f39.chunk.js",
+    "static/media/search-pan.svg": "/recipe-list/static/media/search-pan.76b4b9b1859d70e58f14a748c9040193.svg",
+    "static/media/knife.svg": "/recipe-list/static/media/knife.b89ac74b0a1898a6d190448adef02010.svg",
+    "static/media/Ladle.svg": "/recipe-list/static/media/Ladle.6cc48fbef92e0795f0bea3545b61e9e2.svg",
+    "static/media/heart.svg": "/recipe-list/static/media/heart.8a27a2f7479670ecc2415b28cadf0fd8.svg",
+    "static/media/fillHeart.svg": "/recipe-list/static/media/fillHeart.498f40bfb57316591d309a7075eb907c.svg",
+    "static/media/whatsapp.svg": "/recipe-list/static/media/whatsapp.1c27e36893aff1c3e7e7e0e5ca55860b.svg",
+    "static/media/vk.svg": "/recipe-list/static/media/vk.2f082f85c8d4a7cdfa19b2a897afa655.svg",
+    "static/media/telegram.svg": "/recipe-list/static/media/telegram.adc56d27772286a101a8bd19477504db.svg",
+    "static/media/edit-icon.svg": "/recipe-list/static/media/edit-icon.1f7dcff0268e6935e71669715d1356ff.svg",
+    "static/media/save-icon.svg": "/recipe-list/static/media/save-icon.d1d4243b5c67eb077259721b1a9425d6.svg",
+    "static/media/btn-remove.svg": "/recipe-list/static/media/btn-remove.4fa999f4cd6cf3cbe92eea980677bc77.svg",
+    "index.html": "/recipe-list/index.html",
+    "static/media/btn-plus.svg": "/recipe-list/static/media/btn-plus.69fea3d7d6326c339cce31cccc1a63dc.svg",
+    "static/media/arrow.svg": "/recipe-list/static/media/arrow.166e2db0065ecfe6f91a4bb0b66f2ac4.svg",
+    "main.d502d1d6.css.map": "/recipe-list/static/css/main.d502d1d6.css.map",
+    "main.904d193c.js.map": "/recipe-list/static/js/main.904d193c.js.map",
+    "775.8e5e3cee.chunk.css.map": "/recipe-list/static/css/775.8e5e3cee.chunk.css.map",
+    "775.a3008f39.chunk.js.map": "/recipe-list/static/js/775.a3008f39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d502d1d6.css",
+    "static/js/main.904d193c.js"
+  ]
+}
