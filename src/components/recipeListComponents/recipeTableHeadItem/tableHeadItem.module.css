@@ -1,0 +1,36 @@
+.tableHeadItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+.smallItems{
+    max-width: 200px;
+}
+.tableHeadItem:active{
+    transform: scale(0.98);
+}
+.headItemText{
+    width: max-content;
+    padding:  5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.activeItemText{
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+.headItemArrow{
+    width: 18px;
+    height: 18px;
+    transition: 0.5s;
+    transform: rotate(-90deg);
+    visibility: visible;
+}
+.visibleArrow{
+    visibility: hidden;
+}
+.arrowReversed{
+    transform: rotate(90deg);
+}

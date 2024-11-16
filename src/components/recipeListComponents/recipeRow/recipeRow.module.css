@@ -1,0 +1,27 @@
+.recipeRowContainer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 0 0 5px 5px ;
+    text-decoration: none;
+    color: var(--app_text_color);
+    text-shadow: 0 0 5px black;
+}
+.recipeRowContainer:hover{
+    border-bottom: 5px groove var(--app_active_color);
+    border-left: 5px groove var(--app_active_color);
+}
+.recipeRowContainer:active{
+    transform: scale(0.98);
+}
+.rowCell{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+.smallCell{
+    max-width: 200px;
+}

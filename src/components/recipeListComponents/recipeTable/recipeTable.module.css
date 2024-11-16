@@ -1,0 +1,5 @@
+.tableContainer{
+    margin-top: 20px;
+    background: linear-gradient(10deg,var(--first_extra_app_color),var(--main_app_color),var(--second_extra_app_color));
+    border-radius: 5px;
+}

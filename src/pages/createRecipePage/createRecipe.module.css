@@ -1,0 +1,195 @@
+.createRecipeContainer{
+    width: 100%;
+    margin-top: 20px;
+}
+.createForm{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-end;
+    padding: 20px;
+    border: 5px groove black;
+    border-radius: 10px;
+    background: linear-gradient(10deg,var(--first_extra_app_color),var(--main_app_color),var(--second_extra_app_color));
+    overflow: auto;
+}
+.previewDatas{
+    width: 100%;
+    display: flex;
+}
+.previewImgContainer{
+    max-width: 500px;
+    max-height: 300px;
+    min-width: 400px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.previewImage{
+    max-width: 470px;
+    max-height: 270px;
+    min-width: 200px;
+    min-height: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.addBtnsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.addImgBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.inputItem{
+    width: 150px;
+    height: 25px;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+}
+.imageLoaderBtn{
+    width: 120px;
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: linear-gradient(30deg,black,lightgrey,black);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+.imageLoaderBtn:hover{
+    background: linear-gradient(grey,grey);
+}
+.filedsContainer{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 10px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.fieldItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.filedTitle{
+    color: var(--app_text_color);
+    text-shadow: 0 0 2px black;
+    font-weight: 600;
+}
+.dataFiled{
+    width: 100%;
+    padding: 2px 5px;
+    color: black;
+}
+.changeableListContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.addingListItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.addBtn{
+    width: 24px;
+    height: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.addBtn:active{
+    transform: scale(0.9);
+}
+.changeableList{
+    width: 100%;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+.listItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baseIngrsContainer{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.extraDatas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.inputArea{
+    width: 100%;
+    min-width: 500px;
+    max-width: 1000px;
+    max-height: 300px;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.submitBtn{
+    width: 100px;
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: linear-gradient(30deg,black,lightgrey,black);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+.submitBtn:hover{
+    border-color: white;
+}
+
+.errorText{
+    color: red;
+    text-shadow: 0 2px 3px black;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+}

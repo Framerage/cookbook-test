@@ -1,0 +1,79 @@
+.formBlock {
+  width: 500px;
+  height: 260px;
+  border: 6px double var(--second_extra_app_color);
+  border-radius: 15px;
+  background-color: var(--first_extra_app_color);
+  display: flex;
+  flex-direction: column;
+  animation: scaled 1s ease-in-out;
+  margin: auto;
+}
+@keyframes scaled {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.formHead {
+  color: var(--app_text_color);
+  text-shadow: 0 5px 5px var(--app_text_shadow_color);
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+}
+.inputItem {
+  max-width: 100%;
+  margin: 20px;
+  padding: 5px;
+  color: var(--app_input_text_color);
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.succesLoader{
+  width: 24px;
+  height: 24px;
+  border-bottom: 2px dotted var(--app_input_text_color);
+  border-left: 2px dotted var(--app_input_text_color);
+  border-top: 2px dotted var(--app_input_text_color);
+  border-radius: 50%;
+  animation: rotate 3s infinite;
+  margin-left: 5px;
+}
+@keyframes rotate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
+.submitBtn {
+  width: 100px;
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: grey;
+  transform: scale(0.98);
+}
+.errorReqText{
+  font-size: 20px;
+  font-weight: 600;
+  color: darkred;
+  text-shadow: 0 0 5px var(--app_text_shadow_color);
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

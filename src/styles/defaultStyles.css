@@ -1,0 +1,32 @@
+:root{
+  --main_app_color:#000;
+  --app_text_color:white;
+  --app_text_shadow_color:yellowgreen;
+  --app_input_text_color:#000;
+  --first_extra_app_color:teal;
+  --second_extra_app_color:yellowgreen;
+  --app_active_color:aqua;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body,html {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: var(--main_app_color);
+  color:var(--app_text_color);
+  font-weight: 600;
+}
+*::-webkit-scrollbar {
+  width: 15px;
+}
+*::-webkit-scrollbar-track {
+  background: linear-gradient(var(--first_extra_app_color),var(--second_extra_app_color));
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--app_active_color);
+  border-radius: 5px;
+}

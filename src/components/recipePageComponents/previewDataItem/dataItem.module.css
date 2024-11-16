@@ -1,0 +1,28 @@
+.shortDatasItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.dataItemText{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.itemIcon{
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.itemIcon:active{
+    transform: scale(0.9);
+}
+.activeItem{
+    width: 100%;
+    max-width: 150px;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
